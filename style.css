@@ -155,45 +155,31 @@ header img {
     color: #b17900;
 }
 
-@media (max-width: 1052px) { 
+@media (max-width: 1661px) { 
     
-    #titre {
-        text-align: center;
-        font-size: 11em;
-        transition: .2s;
-    }
-    
-
     #grass {
-          margin-top: 30%;
+          margin-top: 5%;
           transition: .2s;
     }
+   
     
+}
+
+@media (max-width: 1366px) { 
+    
+    #grass {
+          margin-top: 17%;
+          transition: .2s;
+    }
+   
     .parallax img#gate-left {
-        position: fixed;
-        width: 160%;
-        transform: translateX(-730px);
-        margin-top: 5vh;
-        transition: .2s;
+      margin-top: 15%;
     }
 
     .parallax img#gate-right {
-        position: fixed;
-        width: 160%;
-        transform: translateX(150px);
-        margin-top: 5vh;
-        transition: .2s;
-    }
-
-    .parallax img#tree-right {
-        margin-top: 6%;
-        transition: .2s;
-    }
+        margin-top: 15%;
+      }
     
-    .parallax img#tree-left {
-        margin-top: 6%;
-        transition: .2s;
-    }
     
 }
 
