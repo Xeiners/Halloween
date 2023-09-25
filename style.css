@@ -155,6 +155,15 @@ header img {
     color: #b17900;
 }
 
+#lantern {
+    position: absolute  ;
+    margin: 10px 50em;  
+    transform: translateY(-460px);
+    width: 8%;
+    z-index: 99;
+}
+
+
 @media (max-width: 1661px) { 
     
     #grass {
@@ -178,6 +187,33 @@ header img {
 
     .parallax img#gate-right {
         margin-top: 15%;
+      }
+    
+    
+}
+
+@media (max-width: 1116px) { 
+    
+    #lantern {
+        position: absolute  ;
+        margin: 10px 25em;  
+        transform: translateY(-600px);
+   
+    }
+
+    #grass {
+          margin-top: 33%;
+          transition: .2s;
+    }
+   
+    .parallax img#gate-left {
+      margin-top: 30%;
+      transform: translateX(-450px);
+    }
+
+    .parallax img#gate-right {
+        margin-top: 30%;    
+        transform: translateX(500px);
       }
     
     

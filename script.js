@@ -3,6 +3,7 @@ let treeLeft = document.getElementById('tree-left');
 let treeRight = document.getElementById('tree-right');
 let gateRight = document.getElementById('gate-right');
 let gateLeft = document.getElementById('gate-left');
+let lantern = document.getElementById('lantern');
 
 
 window.addEventListener('scroll', () => {
@@ -15,6 +16,10 @@ window.addEventListener('scroll', () => {
 
     gateRight.style.left = value * -0.5 + 'px';
     gateLeft.style.left = value * 0.5 + 'px';
+    
+    lantern.style.marginTop = value * 1.5 + 'px';
+    
+
 
 
 
